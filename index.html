@@ -533,7 +533,7 @@
     <!-- BACKDROP WITH MODAL WINDOW -->
     <div class="backdrop">
       <div class="modal">
-        <button class="close-btn">
+        <button class="close-btn" type="button">
           <svg
             class="close-btn-icon"
             width="8"
@@ -545,8 +545,8 @@
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="review-form">
-          <label for="user-name" class="review-form-field-label">Name</label>
           <div class="review-form-field-wrapper">
+            <label for="user-name" class="review-form-field-label">Name</label>
             <input
               type="text"
               class="review-form-input"
@@ -575,8 +575,10 @@
               <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
             </svg>
           </div>
-          <label for="user-email" class="review-form-field-label">Email</label>
           <div class="review-form-field-wrapper">
+            <label for="user-email" class="review-form-field-label"
+              >Email</label
+            >
             <input
               type="email"
               class="review-form-input"
