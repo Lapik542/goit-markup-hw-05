@@ -728,6 +728,76 @@ img {
   letter-spacing: 0.32px;
 }
 
+/* SUBSCRIDE-FOOTER-PAGE */
+
+.subscribe-paragraph-footer {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.subscribe-form {
+  display: flex;
+}
+
+.email-label {
+  gap: 24px;
+}
+
+.input-cubscribe-footer-page {
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.input-cubscribe-footer-page::placeholder {
+  color: #ffffff;
+}
+
+.button-subscribe-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: none;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+.icon-subscribe-footer {
+  margin-left: 16px;
+}
+
 /* BACKDROP */
 .backdrop {
   position: fixed;
@@ -773,7 +843,7 @@ img {
   border: none;
   padding: 0;
   line-height: 0;
-  background-color: #E7E9FC;
+  background-color: #e7e9fc;
   border-radius: 50%;
   width: 24px;
   height: 24px;
@@ -786,7 +856,7 @@ img {
 
 .close-btn-icon {
   stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.10);
+  stroke: rgba(0, 0, 0, 0.1);
   transition: stroke 250ms ease-out;
 }
 
@@ -794,7 +864,6 @@ img {
   background-color: #404bbf;
   fill: var(--OCEAN, #ffffff);
 }
-
 
 .modal-text {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -884,18 +953,22 @@ img {
   align-items: center;
   width: 16px;
   height: 16px;
-  border: 1px solid #2E2F4266;
+  border: 1px solid #2e2f4266;
   border-radius: 2px;
   cursor: pointer;
   fill: transparent;
 }
 
-.review-form-checkbox:checked + .review-form-checkbox-label > .review-form-own-checkbox {
-  background-color: #404BBF;
+.review-form-checkbox:checked
+  + .review-form-checkbox-label
+  > .review-form-own-checkbox {
+  background-color: #404bbf;
   fill: #fafafa;
 }
 
-.review-form-checkbox:checked + .review-form-checkbox-label > .review-form-own-checkbox {
+.review-form-checkbox:checked
+  + .review-form-checkbox-label
+  > .review-form-own-checkbox {
   outline: 2px solid rgba(0, 0, 255, 0.5);
 }
 
