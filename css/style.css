@@ -730,6 +730,10 @@ img {
 
 /* SUBSCRIDE-FOOTER-PAGE */
 
+.subscribe-page-footer {
+  margin-left: 80px;
+}
+
 .subscribe-paragraph-footer {
   margin-bottom: 16px;
   color: var(--WHITE, #fff);
@@ -746,7 +750,7 @@ img {
   gap: 24px;
 }
 
-.input-cubscribe-footer-page {
+.input-subscribe-footer-page {
   width: 264px;
   height: 40px;
   background-color: transparent;
