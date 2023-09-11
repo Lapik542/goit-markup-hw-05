@@ -909,9 +909,12 @@ img {
   fill: #ffffff;
 }
 
+.review-form-modal {
+  margin-bottom: 8px;
+}
+
 .review-form-field-wrapper {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .review-form-input {
