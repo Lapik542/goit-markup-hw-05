@@ -980,9 +980,12 @@ img {
   fill: transparent;
 }
 
-.privacy-checkbox:checked {
+.privacy-checkbox:checked + .privacy-text {
   background-color: #404bbf;
   border: none;
+}
+
+.privacy-checkbox:checked + .privacy-text svg {
   fill: #f4f4fd;
 }
 
